@@ -1,0 +1,69 @@
+.skillContainer {
+  border: 1px solid #ddd;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 35px 42.49px 36.55px 52px;
+  margin: 10px;
+  background-color: #fff;
+  width: 415px; /* Adjust as needed */
+}
+
+.skillInfoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.skillItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.skillName {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.skillProficiency {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.skillBar {
+  width: 100%;
+  height: 4.04px;
+  background-color: #f0f0f0;
+  border-radius: 30px;
+  margin-top: 5px;
+  border: 0.5px solid rgba(255, 180, 0, 1);
+  display: flex;
+  align-items: center;
+}
+
+.skillProgress {
+  height: 2.02px;
+  background-color: rgba(255, 180, 0, 1);
+  border-radius: 30px;
+}
+.skillbox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.skillhead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-bottom: -12px;
+}

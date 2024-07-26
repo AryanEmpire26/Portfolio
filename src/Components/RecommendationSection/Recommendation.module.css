@@ -1,0 +1,50 @@
+.container {
+  background-color: rgba(240, 240, 246, 1);
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  background-color: rgba(240, 240, 246, 1);
+  width: 100%;
+  max-width: 654px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39.55px;
+  color: rgba(43, 43, 43, 1);
+  margin-bottom: 15px;
+}
+
+.heading p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(118, 118, 118, 1);
+  margin: 0;
+  width: 485px;
+}
+
+.recommendContainer {
+  width: 80%;
+  padding: 20px 65px;
+}
+
+.recommendCard {
+  padding: 10px;
+}

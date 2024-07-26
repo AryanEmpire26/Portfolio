@@ -1,0 +1,75 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 33px 57px 0 18px;
+  max-width: 340px;
+  height: 327.1px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+}
+
+.rimg {
+  width: 145.62px;
+  height: 17.6px;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  line-height: 22.25px;
+  color: rgba(43, 43, 43, 1);
+  margin-bottom: 17px;
+}
+
+.description {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  color: rgba(118, 118, 118, 1);
+}
+
+.infocontainer {
+  display: flex;
+  flex-direction: row; /* Changed to row to align items horizontally */
+  align-items: center; /* Center the items vertically */
+  margin-top: auto; /* Push the container to the bottom */
+}
+
+.propimg {
+  width: 89.61px;
+  height: 81px;
+  border-radius: 50%;
+  margin-right: 10px; /* Add margin to separate from name and job */
+  margin-bottom: 10px;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.profileName {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 22.25px;
+  color: rgba(43, 43, 43, 1);
+  margin-bottom: 0px;
+}
+
+.profileJob {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(118, 118, 118, 1);
+}

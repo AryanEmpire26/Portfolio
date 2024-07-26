@@ -1,0 +1,86 @@
+{
+    "recommendations":[
+  {
+    "id": 1,
+    "ratingimg":"Rating.jpg",
+    "title": "Highly recommended!",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...",
+    "profilePhoto": "profile1.jpg",
+    "profileName": "John Doe",
+    "profileJob": "Software Engineer"
+  },
+    {
+    "id": 2,
+    "title": "Great collaborator!",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...",
+    "profilePhoto": "profile5.jpg",
+    "profileName": "Michael Brown",
+    "profileJob": "Product Manager"
+  },
+  {
+    "id": 3,
+    "title": "Outstanding performance!",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...",
+    "profilePhoto": "profile2.jpg",
+    "profileName": "Jane Smith",
+    "profileJob": "Project Manager"
+  },
+  {
+    "id": 4,
+    "title": "Great Quality!",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...",
+    "profilePhoto": "Profile (1).jpg",
+    "profileName": "James Gouse",
+    "profileJob": "Graphic Designer"
+  },
+  {
+    "id": 5,
+    "title": "Amazing work!",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...",
+    "profilePhoto": "Profile.jpg",
+    "profileName": "Tiana Philips",
+    "profileJob": "Photographer"
+  },
+
+  {
+    "id": 6,
+    "title": "Great Quality!",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...",
+    "profilePhoto": "Profile (2).jpg",
+    "profileName": "Talan Westervelt",
+    "profileJob": "Business man"
+  },
+  {
+    "id": 7,
+    "title": "Expert in the field!",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...",
+    "profilePhoto": "profile7.jpg",
+    "profileName": "Chris Lee",
+    "profileJob": "DevOps Engineer"
+  },
+  {
+    "id": 8,
+    "title": "Creative and innovative!",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...",
+    "profilePhoto": "profile8.jpg",
+    "profileName": "Alex Martinez",
+    "profileJob": "Graphic Designer"
+  },
+  {
+    "id": 9,
+    "title": "Reliable and efficient!",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...",
+    "profilePhoto": "profile9.jpg",
+    "profileName": "Lisa White",
+    "profileJob": "Business Analyst"
+  },
+  {
+    "id": 10,
+    "title": "Professional and dedicated!",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...",
+    "profilePhoto": "profile10.jpg",
+    "profileName": "Tom Harris",
+    "profileJob": "Full Stack Developer"
+  }
+]
+}

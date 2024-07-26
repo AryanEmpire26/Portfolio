@@ -1,0 +1,188 @@
+/* Overlay.module.css */
+
+.overlay {
+  position: fixed; /* Fixed position to cover the viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it is on top */
+}
+
+.overlayContent {
+  background: rgba(255, 255, 255, 1);
+  padding: 36px 28px;
+  border-radius: 10px;
+  width: 833px;
+  max-height: 90vh; /* Limit height to 90% of viewport height */
+  display: flex;
+  flex-direction: column; /* Arrange content vertically */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+  position: relative; /* Position relative for the buttonRow */
+}
+
+.headtxt {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 54.38px;
+  text-align: center;
+  font-size: 44px;
+  color: rgba(43, 43, 43, 1);
+}
+
+.formtitle {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Adjust width to match the content width */
+  margin-bottom: 20px; /* Add spacing between sections */
+}
+
+.formGroup {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.domaintxt {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  line-height: 27.5px;
+  font-weight: 500;
+  color: rgba(43, 43, 43, 1);
+  text-align: start;
+  margin-bottom: 14px;
+}
+
+.domaininp {
+  width: 100%;
+  height: 74px;
+  background-color: rgba(240, 240, 246, 1);
+  border-radius: 5px;
+  border: none;
+  padding: 26px;
+}
+
+.domaininp::placeholder {
+  color: rgba(43, 43, 43, 0.5);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.25px;
+  font-family: "Inter", sans-serif;
+}
+
+form {
+  flex: 1; /* Allow form to grow and shrink */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skillhead {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.skillGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.skillColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillLabel {
+  text-align: start;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.25px;
+  color: rgba(43, 43, 43, 1);
+  font-family: "Inter", sans-serif;
+}
+
+.skillInput,
+.proficiencyInput {
+  width: 300%;
+  height: 74px;
+  padding: 8px;
+  background-color: rgba(240, 240, 246, 1);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+.proficiencyInput {
+  width: 150px;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: flex-end;
+  gap: 19px;
+  margin-top: 20px; /* Add spacing from the content above */
+  margin-left: 440px;
+}
+
+
+.addButton {
+  background-color: rgba(255, 180, 0, 1);
+  width: 151px;
+  height: 51px;
+  padding: 17px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.addButton:hover {
+  background-color: rgba(255, 160, 0, 1); /* Slightly darker shade */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.cancelButton {
+  width: 151px;
+  height: 51px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(255, 82, 82, 1);
+  padding: 10px 20px;
+  border: 1px solid rgba(255, 82, 82, 1);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.cancelButton:hover {
+  background-color: rgba(255, 230, 230, 1); /* Light red background */
+  color: rgba(255, 82, 82, 1); /* Keep text color consistent */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+h6 {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+  line-height: 16.94px;
+}
+
+
+.titletxt {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.4px;
+  color: rgba(43, 43, 43, 1);
+  text-align: start;
+  margin-bottom: 14px;
+}

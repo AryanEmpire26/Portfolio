@@ -1,0 +1,89 @@
+.container {
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Optional padding */
+  box-sizing: border-box; /* Include padding in width/height */
+}
+
+.content {
+  background-color: aquamarine;
+  width: 100%;
+  max-width: 1345px;
+  height: auto; /* Allow height to adjust based on content */
+  padding: 20px; /* Optional padding */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the top */
+  box-sizing: border-box; /* Include padding in width/height */
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.titletxt {
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 39.55px;
+  color: rgba(43, 43, 43, 1);
+  margin-bottom: 22px;
+}
+
+.paratxt {
+  width: 438px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(118, 118, 118, 1);
+  margin-bottom: 0;
+}
+
+.Skillscontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 19px;
+  margin-top: 20px;
+  width: 103%;
+}
+
+.Skillsbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 19px;
+  width: 103%;
+  margin-bottom: 35px;
+}
+
+.addSkillButton {
+  background-color: rgba(255, 180, 0, 1);
+  width: 151px;
+  height: 51px;
+  border-radius: 5px;
+  padding: 17px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.addSkillButton:hover {
+  background-color: rgba(255, 150, 0, 1); /* Darker shade on hover */
+}
+
+.btntxt {
+  font-size: 14px;
+  line-height: 16.94px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #fff; /* Ensure text is readable */
+}

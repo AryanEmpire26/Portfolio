@@ -1,0 +1,273 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "How To Make Flyer Design",
+      "imagesrc": "Image-3.jpg",
+      "description": "Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit Awd And Lorem Ipsum...",
+      "skills": [
+        "Typescript",
+        "ReactJs",
+        "NextJs",
+        "CSS",
+        "HTML",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "How To Make Flyer Design",
+      "imagesrc": "Image-4.jpg",
+      "description": "Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit Awd And Lorem Ipsum...",
+      "skills": [
+        "Typescript",
+        "ReactJs",
+        "NextJs",
+        "CSS"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "How To Make Flyer Design",
+      "imagesrc": "Image-5.jpg",
+      "description": "Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit Awd And Lorem Ipsum...",
+      "skills": [
+        "Typescript",
+        "ReactJs",
+        "NextJs",
+        "CSS",
+        "HTML",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "How To Make Flyer Design",
+      "imagesrc": "Image.jpg",
+      "description": "Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit Awd And Lorem Ipsum...",
+      "skills": [
+        "Typescript",
+        "ReactJs",
+        "NextJs",
+        "CSS",
+        "HTML",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "How To Make Flyer Design",
+      "imagesrc": "Image-1.jpg",
+      "description": "Flyer Design is a very important part of any business. It helps to promote",
+      "skills": [
+        "Typescript",
+        "ReactJs",
+        "NextJs",
+        "CSS",
+        "HTML",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "How To Make Flyer Design",
+      "imagesrc": "Image-2.jpg",
+      "description": "Flyer Design is a very important part of any business. It helps to promote",
+      "skills": [
+        "Typescript",
+        "ReactJs",
+        "NextJs",
+        "CSS",
+        "HTML",
+        "MongoDB"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "1",
+      "title": "Outstanding performance!",
+      "ratingimg": "Rating.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...",
+      "profilePhoto": "p4.jpg",
+      "profileName": "Jane Smith",
+      "profileJob": "Project Manager"
+    },
+    {
+      "id": "2",
+      "title": "Great Quality!",
+      "ratingimg": "Rating.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...",
+      "profilePhoto": "Profile (1).jpg",
+      "profileName": "James Gouse",
+      "profileJob": "Graphic Designer"
+    },
+    {
+      "id": "3",
+      "title": "Amazing work!",
+      "ratingimg": "Rating.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...",
+      "profilePhoto": "Profile.jpg",
+      "profileName": "Tiana Philips",
+      "profileJob": "Photographer"
+    },
+    {
+      "id": "4",
+      "title": "Great Quality!",
+      "ratingimg": "Rating.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...",
+      "profilePhoto": "Profile (2).jpg",
+      "profileName": "Talan Westervelt",
+      "profileJob": "Business man"
+    },
+    {
+      "id": "5",
+      "title": "Expert in the field!",
+      "ratingimg": "Rating.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...",
+      "profilePhoto": "p7.jpg",
+      "profileName": "Chris Lee",
+      "profileJob": "DevOps Engineer"
+    }
+  ],
+  "infocontacts": [
+    {
+      "id": "6678",
+      "name": "Aryan Ranjan",
+      "email": "aryanranjanwork@gmail.com",
+      "subject": "regarding intern",
+      "message": "we are opening intern  positions"
+    },
+    {
+      "id": "8214",
+      "name": "adfa",
+      "email": "adfsdfas@gmail.com",
+      "subject": "afds",
+      "message": "afdsafds"
+    },
+    {
+      "id": "d0f0",
+      "name": "sdfsdf",
+      "email": "dfsdf@g.com",
+      "subject": "sdfsdf",
+      "message": "sdfsdf"
+    },
+    {
+      "id": "7e91",
+      "name": "Aryan Ranjan",
+      "email": "aryanempire26@gmail.com",
+      "subject": "regarding intern",
+      "message": "asdfg"
+    }
+  ],
+  "domains": [
+    {
+      "domain": "Frontend Development",
+      "skills": [
+        {
+          "name": "HTML",
+          "proficiency": 90
+        },
+        {
+          "name": "CSS",
+          "proficiency": 85
+        },
+        {
+          "name": "Js",
+          "proficiency": 80
+        },
+        {
+          "name": "PHP",
+          "proficiency": 75
+        },
+        {
+          "name": "WordPress",
+          "proficiency": 85
+        }
+      ],
+      "id": "f778"
+    },
+    {
+      "domain": "Languages ",
+      "skills": [
+        {
+          "name": "Hindi",
+          "proficiency": 90
+        },
+        {
+          "name": "English",
+          "proficiency": 85
+        }
+      ],
+      "id": "ac56"
+    },
+    {
+      "domain": "Backend Development",
+      "skills": [
+        {
+          "name": "NodeJS",
+          "proficiency": 90
+        },
+        {
+          "name": "SSR",
+          "proficiency": 85
+        }
+      ],
+      "id": "5c10"
+    },
+    {
+      "domain": "Frontend Development",
+      "skills": [
+        {
+          "name": "HTML",
+          "proficiency": 90
+        },
+        {
+          "name": "CSS",
+          "proficiency": 85
+        },
+        {
+          "name": "Js",
+          "proficiency": 80
+        },
+        {
+          "name": "PHP",
+          "proficiency": 75
+        },
+        {
+          "name": "WordPress",
+          "proficiency": 70
+        }
+      ],
+      "id": "6112"
+    },
+    {
+      "domain": "Languages ",
+      "skills": [
+        {
+          "name": "Hindi",
+          "proficiency": 90
+        },
+        {
+          "name": "English",
+          "proficiency": 85
+        }
+      ],
+      "id": "4b64"
+    },
+    {
+      "domain": "Backend Development",
+      "skills": [
+        {
+          "name": "NodeJS",
+          "proficiency": 90
+        },
+        {
+          "name": "SSR",
+          "proficiency": 85
+        }
+      ],
+      "id": "bb17"
+    }
+  ]
+}
