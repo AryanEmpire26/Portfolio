@@ -1,60 +1,65 @@
-/* src/Components/NavBar.module.css */
 .navbar {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  background: rgba(255, 255, 255, 1);
-  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
   height: 152px;
+  justify-content: space-between;
+  padding: 38px 219px 38px 96px;
   position: sticky;
   top: 0;
+  width: 100%;
   z-index: 1000;
-  padding: 38px 219px 38px 96px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
 }
 
 .logo {
-  display: inline-block; /* Allows positioning relative to the navbar */
-  top: 38px; /* Vertical position from the top */
-  left: 96px; /* Horizontal position from the left */
+  display: inline-block;
+  left: 96px;
+  top: 38px;
 }
 
 .logoImage {
-  width: 158px; /* Set width */
-  height: 76px; /* Set height */
-  opacity: 1; /* Set opacity to fully visible */
-  transform: rotate(0deg); /* Set rotation angle */
-  display: block; /* Ensure the image behaves like a block element */
+  display: block;
+  height: 76px;
+  opacity: 1;
+  transform: rotate(0deg);
+  width: 158px;
 }
+
 .navItems {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 520px; /* Width for nav items */
-  height: 37px; /* Height for nav items */
-  gap: 10px; /* Gap between nav items */
-  opacity: 1; /* Set opacity to fully visible */
-  transform: rotate(0deg); /* Set rotation angle */
+  display: flex;
+  gap: 10px;
+  height: 37px;
+  justify-content: space-between;
+  opacity: 1;
+  transform: rotate(0deg);
+  width: 520px;
 }
 
 .navItems a {
-  text-decoration: none;
-  color: black;
-  font-size: 14px; /* Updated font-size */
-  font-weight: 500; /* Updated font-weight */
-  line-height: 16.94px; /* Updated line-height */
-  text-align: left; /* Updated text-align */
-  padding: 10px 20px;
   border-radius: 5px;
-  transition: background-color 0.3s, color 0.3s;
+  color: black;
+  cursor: pointer;
   display: inline-block;
-
   font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.21;
+  padding: 10px 20px;
+  text-align: left;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .navItems a.active {
-  background-color: rgb(254, 181, 0);
-  color: black;
+  background-color: #feb500;
   border-radius: 5px;
-  
+  color: black;
+}
+
+.navItems a:hover {
+  background-color: #ffb400;
+  color: black;
 }

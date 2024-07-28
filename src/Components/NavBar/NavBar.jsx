@@ -9,16 +9,42 @@ const NavBar = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
+  const getOffset = (link) => {
+    switch (link) {
+      case "Skills":
+        return -10;
+      case "Projects":
+        return -80;
+      case "Recommendations":
+        return -200;
+      case "Contact":
+        return 0;
+      default:
+        return -120;
+    }
+  };
+
   const handleLinkClick = (link, id) => {
     setActiveLink(link);
-    if (location.pathname !== "/") {
+    const offset = getOffset(link);
+
+    if (location.pathname === "/") {
+      // Scroll to section if on home page
+      scroller.scrollTo(id, {
+        duration: 800,
+        delay: 0,
+        smooth: "easeInOutQuart",
+        offset: offset,
+      });
+    } else {
+      // Navigate to home page and then scroll to section
       navigate("/");
       setTimeout(() => {
         scroller.scrollTo(id, {
           duration: 800,
           delay: 0,
           smooth: "easeInOutQuart",
-          offset: -60,
+          offset: offset,
         });
       }, 100); // Slight delay to ensure the home page has rendered
     }
@@ -30,7 +56,7 @@ const NavBar = () => {
         <img src={logoImage} alt="Logo" className={styles.logoImage} />
       </div>
       <nav className={styles.navItems}>
-        {location.pathname === "/" ? (
+        {location.pathname === "/" ? (        //if user at home page then only scroll to desired location
           <ScrollLink
             activeClass="active"
             to="Home"
@@ -43,7 +69,7 @@ const NavBar = () => {
           >
             Home
           </ScrollLink>
-        ) : (
+        ) : (                               //if user at skills page 
           <RouterLink
             to="/"
             className={activeLink === "Home" ? styles.active : ""}
@@ -55,7 +81,7 @@ const NavBar = () => {
         <RouterLink
           to="/skills"
           className={activeLink === "Skills" ? styles.active : ""}
-          onClick={() => handleLinkClick("Skills")}
+          onClick={() => handleLinkClick("Skills", "Skills")}
         >
           Skills
         </RouterLink>
@@ -131,7 +157,7 @@ const NavBar = () => {
             to="Contact"
             spy={true}
             smooth={true}
-            
+            offset={0}
             duration={500}
             className={activeLink === "Contact" ? styles.active : ""}
             onClick={() => handleLinkClick("Contact", "Contact")}

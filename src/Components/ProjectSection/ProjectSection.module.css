@@ -1,75 +1,73 @@
 .projectarea {
-  background-color: rgba(240, 240, 246, 1);
-
-  width: 100%; /* Set to 100% for responsiveness */
-  height: auto; /* Set to auto for dynamic height based on content */
-  display: flex;
-  justify-content: center;
   align-items: center;
+  background-color: rgba(240, 240, 246, 1);
+  display: flex;
   flex-direction: column;
+  height: auto;
+  justify-content: center;
   padding: 50px;
+  width: 100%;
 }
 
 .projectcontent {
-  background-color: rgba(240, 240, 246, 1);
-  height: auto;
-  width: 100%; /* Adjust width for responsiveness */
-  max-width: 1321px; /* Optional: Set a maximum width */
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
   align-items: center;
-  text-align: center;
-  padding: 20px; /* Add padding inside the content area */
-  box-sizing: border-box; /* Ensure padding and border are included in total width/height */
-}
-
-.projectheading {
   background-color: rgba(240, 240, 246, 1);
-  width: 100%; /* Full width of projectcontent */
-  max-width: 654px; /* Optional: Set a maximum width */
-  padding: 20px; /* Add padding inside the heading area */
-  box-sizing: border-box; /* Ensure padding is included in total width/height */
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center; /* Space below heading */
-}
-
-.projectheading h2 {
-  font-family: "Inter", sans-serif;
-  font-weight: 700; /* Bold weight */
-  font-size: 32px; /* Font size */
-  line-height: 39.55px; /* Line height */
-  color: rgba(43, 43, 43, 1); /* Text color */
-  margin-bottom: 15px;
-}
-
-.projectheading p {
-  font-family: "Inter", sans-serif; /* Font family */
-  font-weight: 400; /* Font weight */
-  font-size: 15px; /* Font size */
-  line-height: 24px; /* Line height */
-  text-align: center; /* Center-align text */
-  color: rgba(118, 118, 118, 1); /* Text color */
-  margin: 0; /* Remove default margin */
+  justify-content: flex-start;
+  max-width: 1321px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
 }
 
 .projectContainer {
-  width: 104%; /* Full width of projectcontent */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
-  /* Add padding or margin if needed to adjust spacing */
+  width: 104%;
+}
+
+.projectheading {
+  align-items: center;
+  background-color: rgba(240, 240, 246, 1);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 654px;
+  padding: 20px;
+  width: 100%;
+}
+
+.projectheading h2 {
+  color: rgba(43, 43, 43, 1);
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.55px;
+  margin-bottom: 15px;
+}
+
+.projectheading p {
+  color: rgba(118, 118, 118, 1);
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  text-align: center;
+  text-transform: capitalize;
 }
 .projectCard {
-  margin-top: 37px;
+  align-items: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
   gap: 80px;
+  justify-content: center;
+  margin-top: 37px;
   width: 100%;
 }

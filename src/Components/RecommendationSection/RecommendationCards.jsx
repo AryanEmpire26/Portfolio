@@ -14,11 +14,14 @@ function RecommendationCards({
 }) {
   return (
     <div className={styles.content}>
+      {/* Review section containing rating image, title, and description */}
       <div className={styles.review}>
         <img src={getImageUrl(ratingimg)} alt={title} className={styles.rimg} />
         <h3 className={styles.title}>{title}</h3>
         <p className={styles.description}>{description}</p>
       </div>
+
+      {/* Info section containing profile photo and profile details */}
       <div className={styles.infocontainer}>
         <img
           src={getImageUrl(profilePhoto)}

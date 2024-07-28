@@ -36,27 +36,27 @@ function Footer() {
           </div>
           <div className={styles.content2}>
             <div className={styles.linksbox}>
-              <h2 className={styles.linkhead}>Quick Links</h2>
-              <ul className={styles.linklist}>
-                <li className={styles.linkitem}>Home</li>
-                <li className={styles.linkitem}>Skills</li>
-                <li className={styles.linkitem}>Education</li>
-                <li className={styles.linkitem}>Projects</li>
-                <li className={styles.linkitem}>Recomendations</li>
+              <h2>Quick Links</h2>
+              <ul>
+                <li >Home</li>
+                <li >Skills</li>
+                <li >Education</li>
+                <li >Projects</li>
+                <li >Recomendations</li>
               </ul>
             </div>
             <div className={styles.portfoliobox}>
-              <h2 className={styles.linkhead}>Portfolio</h2>
-              <ul className={styles.linklist}>
-                <li className={styles.linkitem}>Frontend Development</li>
-                <li className={styles.linkitem}>Backend Development</li>
-                <li className={styles.linkitem}>Website Design</li>
-                <li className={styles.linkitem}>Machine Learning</li>
-                <li className={styles.linkitem}>Problem Solving & DSA</li>
+              <h2>Portfolio</h2>
+              <ul>
+                <li >Frontend Development</li>
+                <li >Backend Development</li>
+                <li >Website Design</li>
+                <li >Machine Learning</li>
+                <li >Problem Solving & DSA</li>
               </ul>
             </div>
             <div className={styles.connectbox}>
-              <h2 className={styles.linkhead}>Connect</h2>
+              <h2>Connect</h2>
               <div className={styles.icons}>
                 <a
                   href="https://www.linkedin.com"

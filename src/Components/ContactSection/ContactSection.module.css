@@ -1,44 +1,44 @@
 .container {
-  background-color: rgba(240, 240, 246, 1);
-  width: 100%;
-  height: 1000.67px;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  background-color: rgba(240, 240, 246, 1);
+  display: flex;
+  height: 1000.67px;
+  justify-content: center;
+  width: 100%;
 }
 
 .content {
   background-color: rgba(240, 240, 246, 1);
-  width: 1323px;
-  height: 759.67px;
-  margin-top: 100px;
   display: flex;
   flex-direction: row;
+  height: 759.67px;
   justify-content: space-between;
+  margin-top: 100px;
+  width: 1323px;
 }
 
 .formsection {
   background-color: rgba(240, 240, 246, 1);
-  width: 846px;
-  height: 759px;
   display: flex;
   flex-direction: column;
+  height: 759px;
   justify-content: flex-start;
+  width: 846px;
 }
 
-.title {
+.formsection h2 {
+  color: rgba(43, 43, 43, 1);
   display: block;
-  margin-bottom: 45px;
   font-size: 32px;
   font-weight: 700;
+  margin-bottom: 45px;
   line-height: 39.55px;
-  color: rgba(43, 43, 43, 1);
 }
 
 .form {
+  background-color: rgba(255, 255, 255, 1);
   display: flex;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 1);
   padding: 23px 0 10px 30px;
 }
 
@@ -52,7 +52,7 @@
   margin-bottom: 5px;
 }
 
-.name {
+.label h4 {
   color: rgba(118, 118, 118, 1);
   font-size: 18px;
   font-weight: 500;
@@ -60,34 +60,35 @@
   margin-bottom: 3px;
 }
 
-.input {
-  width: 773.38px;
-  height: 50px;
-  border-radius: 5px;
-  background-color: rgba(240, 240, 246, 1);
+form input {
   border: none;
+  background-color: rgba(240, 240, 246, 1);
+  border-radius: 5px;
+  height: 50px;
+  width: 773.38px;
 }
 
 .textarea {
-  width: 773.38px;
-  height: 210.42px;
-  border-radius: 5px;
   background-color: rgba(240, 240, 246, 1);
-  resize: vertical;
   border: none;
+  border-radius: 5px;
+  height: 210.42px;
+  resize: vertical;
+  width: 773.38px;
 }
 
 .button {
-  padding: 17px 16px 17px 16px;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 1);
+  align-self: start;
   background-color: rgba(255, 180, 0, 1);
   border: none;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
   gap: 10px;
   line-height: 16.94px;
-  font-weight: 600;
-  border-radius: 5px;
-  cursor: pointer;
+  padding: 17px 16px 17px 16px;
   width: 151px;
 }
 
@@ -97,19 +98,19 @@
 
 .contactinfo {
   background-color: rgba(240, 240, 246, 1);
-  width: 373px;
-  height: 759.67px;
   display: flex;
   flex-direction: column;
+  height: 759.67px;
   justify-content: space-between;
   padding: 20px;
+  width: 373px;
 }
 
 .infotitle {
+  color: rgba(43, 43, 43, 1);
   font-size: 32px;
   font-weight: 700;
   line-height: 39.55px;
-  color: rgba(43, 43, 43, 1);
   margin-bottom: 30px;
   margin-left: -20px;
   margin-top: -20px;
@@ -118,37 +119,37 @@
 .location,
 .mail,
 .mobile {
-  width: 372.7px;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  text-align: center;
   padding: 20px;
+  text-align: center;
+  width: 372.7px;
 }
 
 .icon {
-  font-size: 24px;
   color: black;
-  position: relative;
+  font-size: 24px;
   left: -32px;
+  position: relative;
 }
 
 .location {
   background-color: rgba(255, 255, 255, 1);
+  display: flex; 
+  flex-direction: column; 
   height: 211.11px;
   margin-left: -20px;
-  display: flex; /* Use flexbox for alignment */
-  flex-direction: column; /* Arrange items vertically */
-  justify-content: center; /* Center items vertically */
+  justify-content: center; 
   padding: 20px;
 }
 
 .infocontent {
-  display: flex; /* Use flexbox for text alignment */
-  justify-content: space-between; /* Space items out */
-  align-items: center; /* Center items vertically */
-  width: 100%; /* Full width of the container */
+  align-items: center; 
+  display: flex; 
+  justify-content: space-between; 
+  width: 100%; 
 }
 .mail {
   background-color: rgba(255, 255, 255, 1);
@@ -163,18 +164,18 @@
 }
 
 .htext {
+  color: rgba(118, 118, 118, 1);
   font-size: 18px;
   font-weight: 500;
   line-height: 22.25px;
-  color: rgba(118, 118, 118, 1);
 }
 
 .text {
-  font-size: 15px;
   color: rgba(118, 118, 118, 1);
-  margin-top: 5px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 24px;
+  margin-top: 5px;
 }
 .error {
   color: red;

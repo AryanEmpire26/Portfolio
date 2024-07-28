@@ -139,25 +139,11 @@
       "message": "we are opening intern  positions"
     },
     {
-      "id": "8214",
-      "name": "adfa",
-      "email": "adfsdfas@gmail.com",
-      "subject": "afds",
-      "message": "afdsafds"
-    },
-    {
       "id": "d0f0",
       "name": "sdfsdf",
       "email": "dfsdf@g.com",
       "subject": "sdfsdf",
       "message": "sdfsdf"
-    },
-    {
-      "id": "7e91",
-      "name": "Aryan Ranjan",
-      "email": "aryanempire26@gmail.com",
-      "subject": "regarding intern",
-      "message": "asdfg"
     }
   ],
   "domains": [
@@ -236,7 +222,7 @@
         },
         {
           "name": "WordPress",
-          "proficiency": 70
+          "proficiency": 85
         }
       ],
       "id": "6112"

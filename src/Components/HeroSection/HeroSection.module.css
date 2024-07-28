@@ -1,126 +1,151 @@
 .hero {
-  background-color: rgba(255, 255, 255, 1);
-  height: 630px;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
   align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  height: 630px;
+  justify-content: flex-start;
+  width: 100%;
 }
-.ellipse13img {
-  position: absolute;
-  width: 22.83px;
-  height: 21.58px;
-  top: 192.47px;
-  left: 57.39px;
-  gap: 0px;
-  border: 2px 0px 0px 0px;
-  opacity: 0px;
+
+.coder_img {
+  height: 550px;
+  width: 800px;
 }
+
 .ellipse12img {
-  position: absolute;
-  width: 22.83px;
   height: 21.58px;
-  top: 202.15px;
   left: 832.39px;
-}
-.rectangle51img {
   position: absolute;
+  top: 202.15px;
   width: 22.83px;
-  height: 21.58px;
-  top: 230.97px;
-  left: 1362.19px;
 }
+
 .ellipse12img2 {
-  position: absolute;
-  width: 22.83px;
   height: 21.58px;
-  top: 721.29px;
   left: 125.89px;
+  position: absolute;
+  top: 721.29px;
+  width: 22.83px;
 }
+
+.ellipse13img {
+  border: 2px 0px 0px 0px;
+  gap: 0px;
+  height: 21.58px;
+  left: 57.39px;
+  opacity: 0px;
+  position: absolute;
+  top: 192.47px;
+  width: 22.83px;
+}
+
 .ellipse13img2 {
-  position: absolute;
-  width: 22.83px;
-  height: 21.58px;
-  border-radius: 50%;
-  top: 646.58px;
-  left: 882.42px;
   border: 2px solid rgb(254, 181, 0);
-}
-.rectangle52img {
-  position: absolute;
-  width: 22.83px;
+  border-radius: 50%;
   height: 21.58px;
-  top: 601.23px;
-  left: 543.78px;
-}
-.polygon1img {
+  left: 882.42px;
   position: absolute;
+  top: 646.58px;
   width: 22.83px;
-  height: 21.58px;
-  top: 694.04px;
-  left: 1395.64px;
 }
+
 .herocontent {
   background: rgba(255, 255, 255, 1);
-  width: 721.69px;
-  height: 405.17px;
   display: flex;
   flex-direction: column;
+  height: 405.17px;
   justify-content: center;
   margin-left: 98.27px;
+  width: 721.69px;
 }
+
 .heroheading {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 59.33px;
-  margin-bottom: 40px; /* Space between heading and text */
   display: block;
-}
-.herotext {
   font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59.33px;
+  margin-bottom: 40px;
+}
+
+.herotext {
   color: rgba(118, 118, 118, 1);
-  width: 600.84px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
   height: 118.72px;
+  line-height: 24px;
   margin-top: 20px;
+  text-transform: capitalize;
+  width: 600.84px;
 }
-.frontendText {
-  display: inline-block;
-  color: rgb(254, 181, 0);
-}
-.imagecontainer {
-  background: rgba(255, 255, 255, 1);
-  width: 800px;
-  height: 550px;
-  display: inline-block;
-  margin-top: 40px;
-}
-.coder_img {
-  width: 800px;
-  height: 550px;
-}
+
 .hireMeButton {
+  align-items: center;
   background-color: rgba(255, 180, 0, 1);
-  color: rgba(43, 43, 43, 1);
   border: none;
   border-radius: 5px;
-  padding: 16px 32px;
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
+  color: rgba(43, 43, 43, 1);
   cursor: pointer;
+  display: inline-flex;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
   font-size: 16px;
-  line-height: 19.36px;
-  margin-top: 20px; /* Space between text and button */
-  width: 154px;
+  font-weight: 500;
+  gap: 10px;
   height: 51px;
+  line-height: 19.36px;
+  margin-top: 20px;
+  padding: 16px 32px;
+  width: 154px;
 }
 
 .hireMeButton:hover {
-  background-color: rgba(255, 160, 0, 1); /* Slightly darker yellow on hover */
+  background-color: rgba(255, 160, 0, 1);
+}
+
+.imagecontainer {
+  background: rgba(255, 255, 255, 1);
+  display: inline-block;
+  height: 550px;
+  margin-top: 40px;
+  width: 800px;
+}
+
+.polygon1img {
+  height: 21.58px;
+  left: 1395.64px;
+  position: absolute;
+  top: 694.04px;
+  width: 22.83px;
+}
+
+.rectangle51img {
+  height: 21.58px;
+  left: 1362.19px;
+  position: absolute;
+  top: 230.97px;
+  width: 22.83px;
+}
+
+.rectangle52img {
+  height: 21.58px;
+  left: 543.78px;
+  position: absolute;
+  top: 601.23px;
+  width: 22.83px;
+}
+
+.frontendText {
+  color: rgb(254, 181, 0);
+  display: inline-block;
+}
+@media (min-width: 1600px) {
+  .hero {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .rectangle52img{
+    left: 600px;
+  }
+
 }

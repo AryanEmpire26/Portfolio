@@ -10,7 +10,7 @@ const Overlay = ({ isOpen, onClose, onSkillAdded }) => {
   const [domain, setDomain] = useState("");
   const [skills, setSkills] = useState(initialSkills);
 
-  if (!isOpen) return null;
+  if (!isOpen) return null; // Render nothing if overlay is not open
 
   const handleSkillChange = (index, event) => {
     const { name, value } = event.target;
@@ -22,7 +22,7 @@ const Overlay = ({ isOpen, onClose, onSkillAdded }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Validate that at least one skill is filled out and its proficiency level specified
+    // Validate that at least one skill is filled out and its proficiency level is specified
     const hasValidSkill = skills.some(
       (skill) => skill.name && skill.proficiency
     );
@@ -38,8 +38,8 @@ const Overlay = ({ isOpen, onClose, onSkillAdded }) => {
       axios
         .post("http://localhost:3000/domains", newSkill)
         .then(() => {
-          onSkillAdded();
-          onClose();
+          onSkillAdded(); // Notify parent component of new skill addition
+          onClose(); // Close the overlay
           setDomain(""); // Clear form inputs
           setSkills(initialSkills); // Reset skills
         })
